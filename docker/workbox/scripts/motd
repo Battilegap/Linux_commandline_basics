@@ -1,0 +1,22 @@
+----- You are logged into workbox type exit at this command line to exit
+----- this container.
+----- to get started here are some commands you might need to run
+----- To add command line access to your aws account run aws configure
+----- SEE: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+*- Example -*
+$ aws configure
+AWS Access Key ID [None]: <your access account key>
+AWS Secret Access Key [None]: <your access account secret key>
+Default region name [None]: <the region for your account e.g us-west-2>
+Default output format [None]: <can be left blank>
+------------------------------------------------------------------------------------
+----- To configure ssh access to your github / git repository you will need to upload
+----- your PUBLIC key to your account. e.g. Log into your github account
+----- and go to https://github.com/settings/keys . Click 'New SSH Key' and paste the
+----- output from the command below into the text field and hit save.
+$ cat ~/.ssh/id_ecdsa_workbox.pub
+------------------------------------------------------------------------------------
+----- Finally configure git with your user information.
+$ git config --global user.name "<your name>"
+$ git config --global user.email "<your email address>"
+----- Have fun using this image !
