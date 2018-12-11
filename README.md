@@ -5,8 +5,9 @@
 -----------
 To use this project lets start with some basic git commands and usage.
 
-Documentation KEY:
-<description> = a value or setting to add to your command like 'user name'
+Documentation KEY
+
+< description > = a value or setting to add to your command like 'user name'
 
 ### Using git:
 Make sure git is installed on your system
