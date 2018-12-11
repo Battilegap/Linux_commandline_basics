@@ -1,0 +1,55 @@
+Here are some essential bash commands you will need to master.
+Note:
+The '$' sign signifies this is a command you do not need to add it to the command line.
+The '##' is a comment & provides a description of the Command
+
+1: list files and directories
+
+  ## simple listing it will list files and directories based on where you are
+  $ ls
+
+  ## list the contents of a directory in a given path in this case everything in home
+  $ ls /home/
+
+  ## for a more detailed list includes details and hidden files
+  $ ls -al
+
+  ## Combine the above commands for a detailed list of the contents of /home/
+  $ ls -al /home/
+
+  ## If you want to list files according to age newest last this command will do it
+  $ ls -lrt /home/
+
+
+2: Moving around directories
+
+  ## move to a given directory this move you to /opt type `ls` to see what's there
+  $ cd /opt
+
+  ## Move back home in one easy step 'there are a number of wways to do this'
+  $ cd
+  ## or
+  $ cd ~/
+  ## or
+  $ cd $home
+
+
+3: create an empty file
+
+  ## touch will create an empty file
+  $ touch wibble
+
+4: Write to a file without opening it in an editor
+
+  ## We use the echo command with a redirect `>` to write something to the wibble files
+  $ echo "wobble" > wibble
+
+  ## to append or add additional lines without over writing use the `>>` redirecting
+  $ echo "there are wombles as well!" >> wibble
+
+5: copy a file
+
+  ## copy wibble to trouble cp <source> <destination>
+  $ cp wibble trouble
+
+  

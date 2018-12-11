@@ -109,7 +109,7 @@ See if you can find the section in your repo for issuing a pull request and try 
 * basic commands [navigation, managing files, core skills]
 * system commands [checking system resources]
 * Bash as a tool [constructing commands, pipe, redirecting input/output]
-* Bash as a language [writing simple bash scripts]
+* Bash as a language bash scripting [writing simple bash scripts]
 
 ## advanced
 -----------
