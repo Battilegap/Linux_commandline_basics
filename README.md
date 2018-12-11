@@ -4,10 +4,11 @@
 ## Step one
 -----------
 To use this project lets start with some basic git commands and usage.
-KEY:
+
+Documentation KEY:
 <description> <-- a value or setting to add to your command like 'user name'
 
-Using git:
+### Using git:
 Make sure git is installed on your system
 
 * For debian / ubuntu / mint : $ sudo apt-get install git
