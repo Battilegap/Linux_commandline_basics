@@ -3,9 +3,13 @@
 
 ### installation of docker
 ubuntu::
+
 https://www.rorymon.com/blog/how-to-install-docker-on-ubuntu-desktop/
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-9
+
 Centos::
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-centos-7
 
 ## files
