@@ -1,4 +1,4 @@
-# Docker Development container (dev-box-centos)
+# Docker Development container (workbox)
 ---------------------------------------
 
 ## files
@@ -6,7 +6,7 @@
 * Dockerfile - builds new image
 * boostrap.sh - runs bootstrap commands at start up
 * ssh-keys.sh - run by bootstrap.sh and creates a new ssh keypair
-* ssh-config - see .ssh/config file adds config for github git account 
+* ssh-config - see .ssh/config file adds config for github git account
 * motd - set the message you will see when connecting to the container
 
 ## usage
