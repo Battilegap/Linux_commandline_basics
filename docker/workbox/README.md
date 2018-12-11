@@ -73,7 +73,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 Remove stale containers:
 
 ```
-for i in `docker ps -a | grep "${USER}/dev-box-centos:latest" | awk '{print $1}'`; do echo $i ; docker stop $i ; docker rm -f $i; done
+for i in `docker ps -a | grep "${USER}/workbox:latest" | awk '{print $1}'`; do echo $i ; docker stop $i ; docker rm -f $i; done
 
 
 ```
