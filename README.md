@@ -46,6 +46,7 @@ $ git remote add <you account name> git@github.com:<you account name>/Linux_comm
 $ git push <you account name> master
 
 ```
+### Git work flow
 
 When making changes to your own version of this repo you should use a simple git flow to make sure changes can be tracked and shared safely.
 
@@ -78,7 +79,29 @@ git push <you account name> hello_universe_branch
 
 ## Congratulations you just saved a change to a new branch !
 
+## assuming you are happy with your change and want it to be on the master branch do the following.
+
+## go into the master branch
+$ git checkout master
+
+## merge/add the changes in the 'hello_universe_branch' into master
+$ git merge hello_universe_branch
+
+## now push the changes now in master back out to you github account
+$ git push <you account name> master
+
+## In a web browser go to your account https://github.com/<you account name>/Linux_commandline_basics
+## you should see your changes appear in the master branch now.
+
 ```
+
+Typically, the master branch represents the stable code base or most current set of files.
+When sharing work with others you all pull from the master branch and create your own branch before
+merging you code back into master when it is complete.
+
+It is common practice with teams to create a 'pull request' before merging so that others can see what changes are happening. this reduces the risk of changes getting into conflict with each other.
+
+See if you can find the section in your repo for issuing a pull request and try sending yourself one.
 
 
 ## contents
