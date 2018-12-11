@@ -60,7 +60,7 @@ git checkout hello_universe_branch
 
 ## Now make a change to your repo by creating the file hello_universe.txt
 $ cd Linux_commandline_basics/examples
-$ echo "hello universe" hello_universe.txt
+$ echo "hello universe" >> hello_universe.txt
 
 ## add your change
 $ git add Linux_commandline_basics/examples/hello_universe.txt
